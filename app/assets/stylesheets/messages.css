@@ -5,38 +5,65 @@
 .side_bar {
     width: 300px;
     height: 100vh;
-    padding: 0 20px;
 }
 
 .main_chat {
     background-color: white;
     width: calc(100vw - 300px);
-    padding: 0 40px;
 }
 
 .side_bar_header {
     background-color: #253141;
     height: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_name {
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.chat_name {
+    font-size: 10px;
+    color: deepskyblue;
+    border: 1px solid lightblue;
+    padding: 14px;
 }
 
 .side_bar_center {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    padding: 0 20px;
+    overflow: scroll;
+}
+
+.chat_rooms {
+    color: white;
+    padding: 20px 0 40px;
+}
+
+.chat_room a {
+    color: white;
+    text-decoration: none;
 }
 
 .main_chat_header {
     height: 100px;
     background-color: #fff;
+    padding: 0 40px;
 }
 
 .main_chat_center {
     background-color: #fafafa;
     height: calc(100vh - 190px);
-    padding: 46px 0;
+    padding: 46px 40px 0;
 }
 
 .main_chat_bottom {
     background-color: #dddddd;
     height: 90px;
-    padding: 20px 0;
+    padding: 20px 40px;
 }
